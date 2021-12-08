@@ -1,0 +1,88 @@
+/* Layout y tamaños*/
+*
+    {
+    margin: 0;
+    }
+
+#header img, figure img, #CONTACTO img
+    {
+    width: 50px;
+    }
+
+H3, #CONTACTO p, footer p
+    {
+    text-align: center;
+    }
+
+figcaption
+    {
+    display: inline;
+    margin-left: 3%;
+    }
+
+figure p
+    {
+    margin-top: 3%;
+    }
+
+footer
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    }
+
+    footer p
+        {
+        margin: 0;
+        }
+
+#SERVICIOS, #CONTACTO
+    {
+    padding: 3%;
+    }
+    #SERVICIOS h3, #PORTFOLIO h3, #CONTACTO h3
+        {
+        margin-bottom: 3%;
+        }
+
+#CONTACTO img
+    {
+    margin-right: 3%;
+    }
+
+#CONTACTO .row
+    {
+    padding: 0%;
+    }
+    #CONTACTO .row .col
+        {
+        margin-bottom: 3%;
+        }
+/* Colores */
+footer
+    {
+    color:lightgreen;
+    }
+
+/* Otros */
+ul
+    {
+    list-style-type: none;
+    }
+
+#SERVICIOS
+    {
+    background-color: chartreuse;
+    }
+
+figcaption
+    {
+    font-weight: bold;
+    }
+
+body
+    {
+    font-size: 16px;
+    }

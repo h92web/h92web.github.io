@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H92WEB</title>
+
+    <link rel="shortcut icon" href="imagenes/logo125px.png" type="image/x-icon">
+    <link rel="stylesheet" href="resources_bootstrap5/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-md navbar-dark bg-dark" id="header">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/logo125px.png" alt="logo H92WEB">
+            </a>
+
+            <nav class="navbar-text">
+                <h3>H92WEB</h3>
+                <H5>Diseño y desarrollo web</H5>
+            </nav>
+
+            <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#SERVICIOS">SERVICIOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#PORTFOLIO">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#CONTACTO">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <article id="SERVICIOS" class="container-fluid">
+            <h3>SERVICIOS</h3>
+            <div class="row">
+                <figure class="col col-lg-4 col-md-6 col-12">
+                    <img src="imagenes/iconos/web.png" alt="Diseño y desarrollo web">
+                    <figcaption>Diseño y desarrollo web</figcaption>
+                    <p>Diseño de sitios web interactivos para que los usuarios conozcan tu marca personal.</p>
+                </figure>
+                <figure class="col col-lg-4 col-md-6 col-12">
+                    <img src="imagenes/iconos/server.png" alt="Registro de Hosting y dominio">
+                    <figcaption>Registro de Hosting y dominio</figcaption>
+                    <p>Dejame a cargo de alojar tu sitio y registrar la dirección web.</p>
+                </figure>
+                <figure class="col col-lg-4 col-md-6 col-12">
+                    <img src="imagenes/iconos/db.png" alt="Bases de datos">
+                    <figcaption>Bases de datos</figcaption>
+                    <p>Si precisás una base de datos para que usuarios se registren en tu sitio, yo puedo hacerlo.</p>
+                </figure>
+                <figure class="col col-lg-6 col-md-6 col-12">
+                    <img src="imagenes/iconos/wp.png" alt="WordPress">
+                    <figcaption>WordPress</figcaption>
+                    <p>Tal vez estás familiarizado con WordPress, si es así, esta es tu mejor opción.</p>
+                </figure>
+                <figure class="col col-lg-6 col-12">
+                    <img src="imagenes/iconos/ecommerce.png" alt="eCommerce">
+                    <figcaption>eCommerce</figcaption>
+                    <p>Si tenés un negocio, no dudes en contactarme para que tus clientes puedan acceder a tus productos sin moverse de su casa.</p>
+                </figure>
+            </div>
+        </article>
+
+        <article id="PORTFOLIO" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://www.laoficinarecords.com.ar" target="blank">
+                        <img src="imagenes/carousel/lor_web.png" alt="La Oficina Records" class="d-block w-100">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#">
+                        <img src="imagenes/carousel/proximamente.png" alt="La Oficina Records" class="d-block w-100">
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#PORTFOLIO" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#PORTFOLIO" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </article>
+
+        <article id="CONTACTO" class="container-fluid">
+            <h3>CONTACTO</h3>
+            <p>¡Contactame para que podamos hablar de tu idea!</p>
+            <ul class="row">
+                <li class="col col-lg-3 col-md-6 col-12"><img src="imagenes/iconos/telefono.png" alt="">(0223) 153-064316</li>
+                <li class="col col-lg-3 col-md-6 col-12"><img src="imagenes/iconos/gmail.png" alt="">h92web@gmail.com</li>
+                <li class="col col-lg-3 col-md-6 col-12"><img src="imagenes/iconos/github.png" alt=""><a href="https://www.github.com/h92web" target="blank" >GitHub</a></li>
+                <li class="col col-lg-3 col-md-6 col-12"><img src="imagenes/iconos/linkedin.png" alt=""><a href="https://www.linkedin.com/in/hernangarcialoredo/" target="blank" >LinkedIn</a></li>
+            </ul>
+        </article>
+    </section>
+
+    <footer class="bg-dark">
+        <p>H92WEB 2021</p>
+    </footer>
+
+    <script src="resources_bootstrap5/bootstrap.min.js"></script>
+    <script src="resources_bootstrap5/popper.min.js"></script>
+</body>
+</html>
